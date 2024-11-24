@@ -59,4 +59,3 @@ Exemplo de Body (JSON)
     "question": "Qual a diferença entre bloqueio pessimista e bloquio otimista?"
 }
 ```
-
