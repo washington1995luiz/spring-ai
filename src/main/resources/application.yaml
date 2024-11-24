@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ai
+  ai:
+    ollama:
+      model: 'llama3.2:3b'
+      base-url: http://localhost:11434/api
+
+ai:
+  ollama:
+    rule: 'você é um especialista de tecnologia e responde apenas perguntas relacionadas a tecnologia e as respostas devem ser sempre em português de Portugal. Para qualquer outra pergunta, apenas responda "Não possuo essa informação.". A seguir as questões do usuário: %s'

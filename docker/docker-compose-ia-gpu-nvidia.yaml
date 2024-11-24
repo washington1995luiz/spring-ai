@@ -1,0 +1,19 @@
+services:
+  ollama:
+    container_name: ollama-gpu
+    image: ollama/ollama:0.4.4
+    command: ollama run llama3
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-local:/root/.ollama
+
+volumes:
+  ollama-local:
