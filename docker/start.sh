@@ -1,3 +1,5 @@
+# Starter to Linux and WSL platform
+
 # Download and start image
 docker-compose -f docker-compose-ia.yaml up -d
 

@@ -2,7 +2,6 @@ services:
   ollama:
     container_name: ollama-gpu
     image: ollama/ollama:0.4.4
-    command: ollama run llama3
     deploy:
       resources:
         reservations:

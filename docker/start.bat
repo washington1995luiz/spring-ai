@@ -1,3 +1,5 @@
+REM Starter to Windows Platform
+
 REM Download and start image
 docker-compose -f docker-compose-ia.yaml up -d
 

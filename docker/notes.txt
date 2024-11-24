@@ -1,4 +1,4 @@
 docker ps
 docker exec -it ollama /bin/bash
 
-ollama run llama3
+ollama run llama3.2:3b
